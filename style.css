@@ -1,0 +1,61 @@
+body {
+  background: url('bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+h1 {
+	color: white;
+	font-size: 60px;
+	font-family: 'Walter Turncoat', cursive;
+	font-weight: normal;
+	margin-bottom: 0;
+}
+
+h2 {
+	color: white;
+	font-size: 18px;
+	font-family: 'Walter Turncoat', cursive;
+	margin-top: 0;
+}
+
+.bio {
+	color: white;
+	font-size: 15px;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.me {
+	height: 200px;
+	width: 230px;
+	-ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    border-radius: 100%;
+    border-style: solid;
+    border-color: white;
+    margin-top: 40px;
+    /*Cropp intentional; don't want to show my
+     entire face to strangers on the internet*/
+}
+
+.about {
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.line {
+	height: 3px;
+	background-color: white;
+	border: none;
+	width: 250px;
+}
+
+/*I didn't follow Ken's formatting exactly, but
+I did figure out how to comment!*/
